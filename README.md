@@ -30,4 +30,3 @@ The project demonstrates the end-to-end data analytics workflow including data c
 - Transaction trend analysis
 - Customer insights
 - Interactive filters and visualizations
-- 
