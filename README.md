@@ -8,10 +8,10 @@ This project focuses on analyzing banking and customer transaction data to uncov
 The project demonstrates the end-to-end data analytics workflow including data cleaning, querying, analysis, and dashboard creation.
 
 ## Tools & Technologies Used
-- SQL – Data querying and analysis
-- Excel – Data cleaning and preprocessing
-- Power BI – Interactive dashboard and KPI visualization
-- Tableau – Data visualization and exploratory analysis
+- **SQL –** Data querying and analysis
+- **Excel –** Data cleaning and preprocessing
+- **Power BI –** Interactive dashboard and KPI visualization
+- **Tableau –** Data visualization and exploratory analysis
 
 ## Project Workflow
 1. Data Cleaning and Preparation using Excel
