@@ -1,5 +1,5 @@
 # Banking-Analytics
-Banking Analytics project analyzing customer transactions and financial data using SQL, Excel, Power BI, and Tableau. Built interactive dashboards to track KPIs, identify trends, and generate business insights. Demonstrates data cleaning, querying, and visualization skills for data-driven decision making.
+I put this project together to analyze banking loan performance. It’s a mix of SQL for the data heavy lifting and Excel for the initial cleanup. The end goal was building dashboards in Power BI and Tableau that actually make sense of repayment trends and risk levels. It’s a clean, end-to-end look at a massive financial dataset.
 
 
 ## Project Overview
