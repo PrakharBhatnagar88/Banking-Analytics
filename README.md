@@ -1,7 +1,6 @@
 # Banking-Analytics
 <br>
 <img width="1919" height="1199" alt="PowerBI Dashboard" src="https://github.com/user-attachments/assets/5307b4d1-39f9-4bcf-8826-feb572e4e1d3" />
-<img width="1919" height="1197" alt="Tableau Dashboard" src="https://github.com/user-attachments/assets/28aa9f50-a467-4f21-a212-0bba1edd2d52" />
 <br><br>
 I put this project together to analyze banking loan performance. It’s a mix of SQL for the data heavy lifting and Excel for the initial cleanup. The end goal was building dashboards in Power BI and Tableau that actually make sense of repayment trends and risk levels. It’s a clean, end-to-end look at a massive financial dataset.
 
