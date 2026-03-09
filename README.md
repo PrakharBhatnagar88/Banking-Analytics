@@ -58,6 +58,5 @@ banking-analytics-project
 - **UI/UX Design:** Crafted a Power BI interface that prioritizes clarity and allows non-technical stakeholders to drill down into the data.
 
 ## Future Improvements
-- **Predictive Analytics:** Implement a Machine Learning model (Python/R) to predict customer churn before it happens.
 - **Real-time Integration:** Connect the dashboard to a live SQL database for real-time reporting.
-- **Loan Default Prediction:** Expand the analysis to include a credit scoring model for new loan applicants.
+- **Advanced DAX Modelling:** Implement Time Intelligence functions in DAX to perform complex Year-over-Year (YoY) and Month-over-Month (MoM) growth comparisons. 
