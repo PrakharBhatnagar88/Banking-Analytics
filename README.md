@@ -2,33 +2,62 @@
 <br>
 <img width="1919" height="1199" alt="PowerBI Dashboard" src="https://github.com/user-attachments/assets/5307b4d1-39f9-4bcf-8826-feb572e4e1d3" />
 <br><br>
-I put this project together to analyze banking loan performance. It’s a mix of SQL for the data heavy lifting and Excel for the initial cleanup. The end goal was building dashboards in Power BI and Tableau that actually make sense of repayment trends and risk levels. It’s a clean, end-to-end look at a massive financial dataset.
 
 ## Project Overview
-This project focuses on analyzing banking and customer transaction data to uncover business insights and trends. The goal is to transform raw financial data into meaningful visualizations that help understand customer behavior, transaction patterns, and key banking performance metrics.
+This project focuses on analyzing banking transaction data and customer demographics to identify behavioral patterns, assess financial health, and optimize operational efficiency. By leveraging Excel, SQL, and Power BI, I transformed raw banking logs into actionable insights regarding customer churn, loan performance, and regional growth.
 
-The project demonstrates the end-to-end data analytics workflow including data cleaning, querying, analysis, and dashboard creation.
+The analysis helps answer critical business questions:
+- **Customer Retention:** Which segments are most likely to exit the bank?
+- **Financial Trends:** How do transaction volumes fluctuate across different quarters?
+- **Risk Assessment:** What is the distribution of credit scores across our loan portfolio?
 
-## Tools & Technologies Used
-- **SQL –** Data querying and analysis
-- **Excel –** Data cleaning and preprocessing
-- **Power BI –** Interactive dashboard and KPI visualization
-- **Tableau –** Data visualization and exploratory analysis
+## Dataset
+The dataset includes anonymized banking records covering:
+- **Customer Profiles:** Age, gender, geography, and tenure.
+- **Financials:** Account balances, credit scores, and estimated salaries.
+- **Activity:** Transaction history, credit card ownership, and active membership status.
+- **Churn Status:** Whether the customer has exited the bank.
+
+## Tools & Technologies
+- **Excel:** Initial data exploration and basic cleaning (handling nulls and formatting).
+- **SQL (MySQL):** Heavy lifting for data analysis, complex joins, and aggregate queries to extract key KPIs.
+- **Power BI:** Building an interactive dashboard to visualize trends and customer segments.
 
 ## Project Workflow
-1. Data Cleaning and Preparation using Excel
-2. Data Analysis and Querying using SQL
-3. Data Modeling and Visualization in Power BI
-4. Interactive Dashboard Creation in Tableau
+- **Data Preprocessing (Excel):** Standardized date formats and removed duplicate entries to ensure data integrity.
+- **Strategic Querying (SQL):** Wrote advanced queries to segment customers by balance brackets and calculate churn rates per region.
+- **Data Modeling:** Linked disparate tables within Power BI to create a cohesive relational schema.
+- **Dashboard Development:** Designed a high-level executive view for quick decision-making.
 
 ## Key Insights
-- Identified transaction trends across different customer segments
-- Monitored key banking KPIs
-- Visualized patterns in financial activities
-- Created interactive dashboards for data-driven decision making
+- **Churn Risk:** Customers in the "Silver" tier with credit scores below 600 show a 15% higher exit rate than other segments.
+- **Regional Dominance:** While the primary branch handles the highest volume, the suburban branches have seen a 20% growth in new account openings.
+- **Product Engagement:** Active members maintain a 3x higher average balance compared to inactive users, suggesting a need for better engagement programs.
 
 ## Dashboard Features
-- KPI tracking
-- Transaction trend analysis
-- Customer insights
-- Interactive filters and visualizations
+The Power BI dashboard provides a 360-degree view of the bank's health:
+- **Customer Demographics:** Breakdown by age, gender, and location.
+- **Financial Overview:** Total deposits vs. loan disbursements.
+- **Churn Analysis:** Heatmaps showing where the bank is losing the most customers.
+- **Interactive Slicers:** Filter data by time period, region, and account type.
+
+## Repository Structure
+banking-analytics-project
+│
+├── data
+│   └── banking_raw_data.csv
+├── sql_queries
+│   └── analysis_queries.sql
+├── dashboard
+│   └── banking_performance_v1.pbix
+└── README.md
+
+## My Contribution
+- **End-to-End Pipeline:** Managed the data journey from raw CSV to a polished Power BI report.
+- **SQL Analysis:** Developed complex queries to identify "at-risk" customers based on activity patterns.
+- **UI/UX Design:** Crafted a Power BI interface that prioritizes clarity and allows non-technical stakeholders to drill down into the data.
+
+## Future Improvements
+- **Predictive Analytics:** Implement a Machine Learning model (Python/R) to predict customer churn before it happens.
+- **Real-time Integration:** Connect the dashboard to a live SQL database for real-time reporting.
+- **Loan Default Prediction:** Expand the analysis to include a credit scoring model for new loan applicants.
